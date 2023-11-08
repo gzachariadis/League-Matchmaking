@@ -19,5 +19,5 @@ An advanced Auto Queue Script for League of Legends and more...
 - [How to win your Solo Queue Draft - a statistical analysis of 1M+ games](https://www.reddit.com/r/summonerschool/comments/xcd5nl/how_to_win_your_solo_queue_draft_a_statistical/)
 - [TurboSmurfs](https://turbosmurfs.gg/product/40000-blue-essence-smurf-eune)
 - [How to Set Runes using LCU](https://hextechdocs.dev/how-to-set-runes-using-lcu/)
-- []()
+- [GitLukyen - AutoReport](https://github.com/Git-Lukyen/LoL-AutoReport)
 - []()
