@@ -3,8 +3,38 @@
 An advanced Auto Queue Script for League of Legends and more...
 
 
+- Login Summoner
 
 
+- Get Game State 
+	- If GameState is Already Chosen Lobby, then start Matchmaking Q ---> place in Q
+	- if GameState is No Map Selected, then Ask for Which Q to Join -----> lobby creator
+
+- Check if user is in Q and start Timer
+	- if Q aborted, go back lobby.
+	- Else Accept Q when it pops.
+		- Check if Match Already Accepted
+
+Champ Select
+
+- Declaring Phase
+
+   - Wait until Declare time is over.
+	 - Retrieve Hovered - Declared Champions (for Team)
+
+- Ban Phase
+
+  - Choose a bannable champion --> Jungler 55% of the time, ban top laner 10% of time, ban midlane 20% of time, ban supp 5% of time, ban adc 10% of time
+	- Check against Hovered Champions, if id not found in Hovered ---> Ban else --> Choose a bannable champion again until a ban is completed
+
+- Pick Phase
+  -  Choose Champion to pick
+	-  Check if Available
+	-  Pick it
+	-  Lock Champion
+	-  Choose Rune Page that Matches Champion Name
+	-  Choose Exhaust - Ignite as Summoner Spells
+	-  Print Match Begins when Game State Changes.
 
 ## Sources
 
@@ -20,4 +50,3 @@ An advanced Auto Queue Script for League of Legends and more...
 - [TurboSmurfs](https://turbosmurfs.gg/product/40000-blue-essence-smurf-eune)
 - [How to Set Runes using LCU](https://hextechdocs.dev/how-to-set-runes-using-lcu/)
 - [GitLukyen - AutoReport](https://github.com/Git-Lukyen/LoL-AutoReport)
-- []()
